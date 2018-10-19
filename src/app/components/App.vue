@@ -34,7 +34,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr v-for="task of tasks">
+                            <tr v-for="(index, task) of tasks" v-bind:key="index">
                                 <td>{{task.title}}</td>
                                 <td>{{task.description}}</td>
                                 <td>
