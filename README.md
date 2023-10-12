@@ -1,4 +1,4 @@
-Eddy Arellanes Bastida
+
 
 Practice with all MEVN Stack
 M: Mongo
